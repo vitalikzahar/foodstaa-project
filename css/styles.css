@@ -1,0 +1,31 @@
+:root{
+    --primery-text-color:  #2C2C2C;
+    --akcent-text-color: #BBF330;
+    --bacground-color-btn: #BBF330;
+    
+    }
+    body{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    color:var(--primery-text-color);
+    background-color: #F5F5F5;;
+    }
+link {
+    text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+ul {
+  margin: 0;
+  padding: 0;
+}
+img {
+  display: block;
+}
