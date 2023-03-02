@@ -2,6 +2,7 @@
   --primery-text-color: #2c2c2c;
   --akcent-text-color: #bbf330;
   --bacground-color-btn: #bbf330;
+  --bg-hover-btn-header: #ffe450;
 }
 body {
   font-family: "Roboto", sans-serif;
@@ -35,7 +36,6 @@ img {
   width: 1278px;
   margin: 0 auto;
   padding: 0 15px;
-  outline: 1px solid teal;
 }
 
 .header {
@@ -45,7 +45,7 @@ img {
   align-items: center;
 }
 .header-logo {
-  margin-right: 735px;
+  margin-right: auto;
 }
 .header-navigation {
 }
@@ -81,13 +81,12 @@ img {
   margin-left: 30px;
   padding: 6px 18px;
   min-width: 98px;
-  justify-content: flex-end;
   font-family: "Roboto", sans-serif;
   cursor: pointer;
   font-weight: 500;
   font-size: 13px;
   line-height: 1.53;
-  color: #2c2c2c;
+  color: var(--primery-text-color);
   background-color: var(--bacground-color-btn);
   border: 0;
   border-radius: 30px;
@@ -95,5 +94,5 @@ img {
 
 .header-btn:hover,
 .header-btn:focus {
-  background-color: #ffe450;
+  background-color: var(--bg-hover-btn-header);
 }
