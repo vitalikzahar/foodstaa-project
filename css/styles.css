@@ -2,8 +2,11 @@
   --primery-text-color: #2c2c2c;
   --akcent-text-color: #bbf330;
   --bacground-color-btn: #bbf330;
+
 }
 
+  --bacground-color-btn-hover: #ffe450;
+}
 body {
   font-family: "Roboto", sans-serif;
   font-style: normal;
@@ -29,7 +32,6 @@ ul {
 img {
   display: block;
 }
-
 .container {
   width: 1278px;
   margin: 0 auto;
@@ -94,3 +96,4 @@ img {
 .header-btn:focus {
   background-color: var(--bg-hover-btn-header);
 }
+
