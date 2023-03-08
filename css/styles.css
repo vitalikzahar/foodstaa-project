@@ -11,9 +11,11 @@ body {
   color: var(--primery-text-color);
   background-color: #f5f5f5;
 }
+
 link {
   text-decoration: none;
 }
+
 h1,
 h2,
 h3,
@@ -23,13 +25,16 @@ h6,
 p {
   margin: 0;
 }
+
 ul {
   margin: 0;
   padding: 0;
 }
+
 img {
   display: block;
 }
+
 .container {
   width: 1278px;
   margin: 0 auto;
@@ -40,11 +45,12 @@ img {
   display: flex;
   align-items: center;
 }
+
 .header-logo {
   margin-right: auto;
 }
-.header-navigation {
-}
+
+
 
 .header-list {
   display: flex;
@@ -91,4 +97,59 @@ img {
 .header-btn:hover,
 .header-btn:focus {
   background-color: var(--bg-hover-btn-header);
+}
+
+/* === Hero === */
+.hero {
+  padding-top: 14px;
+}
+
+.hero-box {
+  display: flex;
+  align-items: center;
+}
+
+.second-hero-box {
+  margin-left: 16px;
+  max-width: 503px;
+}
+
+.hero-title {
+  font-size: 48px;
+  line-height: 1.2;
+  margin-bottom: 28px;
+}
+
+.hero-text {
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 40px;
+}
+
+.hero-img {
+  display: block;
+  margin-top: 40px;
+  margin-left: auto;
+  margin-right: 56px;
+  border-radius: 50%;
+}
+
+.btn {
+  padding: 6px 18px;
+  border-radius: 30px;
+  border: none;
+
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 1.5;
+  text-align: right;
+  cursor: pointer;
+  color: var(--primery-text-color);
+  background-color: #BBF330;
+}
+
+.btn:hover,
+.btn:focus {
+  background-color: var(--bacground-color-btn-hover);
 }
