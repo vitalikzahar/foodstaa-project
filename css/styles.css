@@ -36,30 +36,27 @@ img {
 }
 
 .say-tiatel{
-  font-family: 'Roboto';
-  font-style: normal;
+  
+  
   font-weight: 700;
   font-size: 42px;
   line-height: 1.7;
   width :501px; 
   height: 49px;
   margin-bottom:20px;
-  margin-left: 0;
- color: #2C2C2C;
-}
+  margin-left: 0;}
+ 
+
 
 .say-description{
-  font-family: 'Roboto';
-  font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height:1.87;
   width: 537px;
   height: 19px;
-  margin-bottom: 32px;
-  color: #2C2C2C;}
+  margin-bottom: 32px;}
 
-.say-list{
+.say-list {
   display: flex;
   align-items: center;
   gap:139px;}
@@ -69,29 +66,22 @@ img {
   box-sizing:border-box ;
   max-width: 501px;
   max-height: 227px;
-  padding-top:58px;
-  padding-bottom: 18px;
+  margin-bottom: 120px;
   background: #FEFEFE;
   border-radius: 0px 30px 30px 30px;}
-.say-stars-box{
-  display: block;
-  
-}
-.img {
+   .img {
   display: flex;
   align-items: center;
   justify-content:baseline;
  text-align: center;}
 
 .say-dascription-inf{
-  font-family: 'Roboto';
-  font-style: normal;
+ 
   font-weight: 700;
   font-size: 18px;
   line-height: 1.67;
   margin-right: 14px;
-  margin-left: 14px;
-  color: #2C2C2C;}
+  margin-left: 14px;}
 
 .say-img{
   display: block;
@@ -103,59 +93,41 @@ img {
   margin-bottom: 18px;
   margin-left: 14px;
   background: ;
-  border: 2px solid #FFE550;
+  border: 2px solid var(--bacground-color-btn-hover);
   border-radius: 50%;}
 
 .say-subject{
-  font-family: 'Roboto';
-  font-style: normal;
   font-weight: 500;
   font-size: 14px;
-  line-height: 1.5;
-  color: #2C2C2C;}
+  line-height: 1.5;}
 
 .say-description-tem{
-  font-family: 'Roboto';
-  font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 150%;
-  color: #2C2C2C;
   margin-bottom: 18px;}
 
 .say-heading{ 
-  font-family: 'Roboto';
-  font-style: normal;
   font-weight: 700;
   font-size: 42px;
   margin-bottom: 20px;
-  line-height: 1.2;
-  color: #2C2C2C;}
+  line-height: 1.2;}
 
 .say-description-m{
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 400;
+   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
-  margin-bottom: 24px;
-  color: #2C2C2C;}
+  margin-bottom: 24px;}
 
 .say-description-meil{
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 400;
   font-size: 12px;
   line-height: 1.5;
   color: #505050;}
 
 .font-family{ 
-  font-family:'Roboto';
-  font-style: normal;
   font-weight: 500;
   font-size: 13px;
-  line-height: 1.5;
-  color: #2C2C2C;}
+  line-height: 1.5;}
 
  .say-meil-btn{
   display: flex;
@@ -169,7 +141,7 @@ img {
   height: 42px;
   border: 0.85px solid;
   border-radius:30px ;
-  border-color: rgba(255, 229, 80, 1);}
+  border-color: var(--bacground-color-btn-hover);}
 
 .btn{
   display: block;
@@ -177,10 +149,12 @@ img {
   height: 42px;
   border: solid rgba(187, 243, 48, 1) ;
   border-radius: 30px;
-  background-color:#BBF330;
+  background-color:var(--bacground-color-btn)} 
+  
+.subject-description{
+  margin-top: 44px;
+}
 
-}  
- 
 
 
 
