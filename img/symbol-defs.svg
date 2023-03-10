@@ -8,7 +8,7 @@
 <symbol id="icon-bg-offerings" viewBox="0 0 50 32">
 <path fill="#ffe550" style="fill: var(--color1, #ffe550)" d="M0 6.183c17.961-10.704 39.456 11.675 49.709-6.183v32h-49.709v-25.817z"></path>
 </symbol>
-<symbol id="icon-bg-customers" viewBox="0 0 63 32">
+<symbol id="icon-bg-customers" viewBox="0 0 64 32">
 <path fill="#ffe550" style="fill: var(--color1, #ffe550)" d="M0 29.091c22.677-11.646 50.275 17.005 63.308-7.022v-22.069h-63.308v29.091z"></path>
 </symbol>
 <symbol id="icon-order" viewBox="0 0 32 32">
