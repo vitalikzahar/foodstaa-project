@@ -157,8 +157,9 @@ img {
   height: 42px;
   border: solid rgba(187, 243, 48, 1) ;
   border-radius: 30px;
-  background-color:var(--bacground-color-btn)} 
-  
+  background-color:var(--bacground-color-btn)}
+
+.btn  
 .subject-description{
   margin-top: 44px;}
 
