@@ -4,15 +4,18 @@
   --bacground-color-btn: #bbf330;
   --bacground-color-btn-hover: #ffe450;
 }
+
 body {
   font-family: "Roboto", sans-serif;
   font-style: normal;
   color: var(--primery-text-color);
   background-color: #f5f5f5;
 }
+
 link {
   text-decoration: none;
 }
+
 h1,
 h2,
 h3,
@@ -22,13 +25,16 @@ h6,
 p {
   margin: 0;
 }
+
 ul {
   margin: 0;
   padding: 0;
 }
+
 img {
   display: block;
 }
+ HEAD
 /*----------------------------<!-- Customers Say Аіда-->----------------------------------------------------------*/
 .say{
   padding-top: 100px;
@@ -91,7 +97,7 @@ img {
   margin-right: 16px;
   margin-bottom: 18px;
   margin-left: 14px;
-  background: ;
+  
   border: 2px solid var(--bacground-color-btn-hover);
   border-radius: 50%;}
 
@@ -190,3 +196,124 @@ img {
 
 
 
+
+
+.container {
+  width: 1278px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.header-content {
+  display: flex;
+  align-items: center;
+}
+
+.header-logo {
+  margin-right: auto;
+}
+
+
+
+.header-list {
+  display: flex;
+  gap: 28px;
+  list-style: none;
+}
+
+.header-item {
+  padding: 28px 0;
+}
+
+.link {
+  text-decoration: none;
+  color: #2c2c2c;
+}
+
+.header-link {
+  font-size: 14px;
+  line-height: 1.14;
+  padding: 28px 0;
+}
+
+.header-link:hover,
+.header-link:focus {
+  color: var(--akcent-text-color);
+  text-decoration: underline;
+}
+
+.header-btn {
+  margin-left: 30px;
+  padding: 6px 18px;
+  min-width: 98px;
+  font-family: "Roboto", sans-serif;
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 1.53;
+  color: var(--primery-text-color);
+  background-color: var(--bacground-color-btn);
+  border: 0;
+  border-radius: 30px;
+}
+
+.header-btn:hover,
+.header-btn:focus {
+  background-color: var(--bg-hover-btn-header);
+}
+
+/* === Hero === */
+.hero {
+  padding-top: 14px;
+}
+
+.hero-box {
+  display: flex;
+  align-items: center;
+}
+
+.second-hero-box {
+  margin-left: 16px;
+  max-width: 503px;
+}
+
+.hero-title {
+  font-size: 48px;
+  line-height: 1.2;
+  margin-bottom: 28px;
+}
+
+.hero-text {
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 40px;
+}
+
+.hero-img {
+  display: block;
+  margin-top: 40px;
+  margin-left: auto;
+  margin-right: 56px;
+  border-radius: 50%;
+}
+
+.btn {
+  padding: 6px 18px;
+  border-radius: 30px;
+  border: none;
+
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 1.5;
+  text-align: right;
+  cursor: pointer;
+  color: var(--primery-text-color);
+  background-color: #BBF330;
+}
+
+.btn:hover,
+.btn:focus {
+  background-color: var(--bacground-color-btn-hover);
+}
+ 
