@@ -110,6 +110,7 @@ img {
 .hero-box {
   display: flex;
   align-items: center;
+  background-color: var(--belii);
 }
 
 .second-hero-box {
@@ -130,11 +131,21 @@ img {
 }
 
 .hero-img {
-  display: block;
-  margin-top: 40px;
-  margin-left: auto;
-  margin-right: 56px;
   border-radius: 50%;
+  position: relative;
+  top: 25px;
+  right: -165px;
+  padding: 0;
+  margin: 0;
+}
+
+.cirkl-hero {
+  margin-left: 143px;
+  position: absolute;
+  top: 86px;
+  right: 400;
+  padding: 0;
+  margin-bottom: 0;
 }
 
 .btn {
@@ -150,6 +161,9 @@ img {
   cursor: pointer;
   color: var(--primery-text-color);
   background-color: #bbf330;
+
+  margin-bottom: 15px;
+  position: relative;
 }
 
 .btn:hover,
@@ -171,8 +185,9 @@ img {
   border: solid rgba(255, 255, 255, 0.5) 5px;
   margin-left: 15px;
   margin-right: 90px;
-  margin-top: 177px;
-  margin-bottom: 43px;
+
+  margin-top: -55px;
+  position: relative;
 }
 
 .white-rund-apple {
@@ -180,7 +195,9 @@ img {
   height: 502px;
   border-radius: 50%;
   background-color: var(--belii);
-  margin: 24px;
+  margin-top: 135px;
+  margin-left: 50px;
+  position: absolute;
 }
 
 .apple-img {
@@ -188,6 +205,9 @@ img {
   margin-bottom: 0;
   overflow: hidden;
   border-radius: 262px;
+  position: absolute;
+  top: -1px;
+  right: 50px;
 }
 
 /* RIGHT PART */
