@@ -47,8 +47,28 @@ img {
  HEAD
 /*----------------------------<!-- Customers Say Аіда-->----------------------------------------------------------*/
 .say{
-  padding-top: 100px;
-  padding-bottom: 100px;}
+  width: 1280px;
+  height: 647px;
+  background-color: #BBF330;
+  background-image: url(../img/symbol-defs.svg);
+  background-position: bottom center;
+  background-repeat: no-repeat;
+  background-size: cover;}
+
+.current{
+  display: inline-block;
+  color: rgb(21, 22, 19);}
+.current::after{
+  content: "";
+  width: ;
+  height: 52px;
+  margin-left: 16px;
+  border: 1px solid #7EB101;
+ 
+ 
+
+}
+
 
 .say-tiatel{
   
@@ -79,11 +99,17 @@ img {
 .say-item-box{
   display: block;
   box-sizing:border-box ;
-  max-width: 501px;
-  max-height: 227px;
+  width: 501px;
+  height: 227px;
   margin-bottom: 120px;
   background: #FEFEFE;
   border-radius: 0px 30px 30px 30px;}
+
+
+
+
+
+
 .img {
   display: flex;
   align-items: center;
@@ -174,42 +200,6 @@ img {
   margin-top: 44px;}
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 img {
   display: block;
 }
@@ -217,8 +207,7 @@ img {
 .container {
   width: 1278px;
   margin: 0 auto;
-  padding: 0 15px;
-}
+  padding: 0 15px;}
 
 
 
