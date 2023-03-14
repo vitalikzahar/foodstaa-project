@@ -44,10 +44,26 @@ img {
 }
 HEAD
 /*----------------------------<!-- Customers Say Аіда-->----------------------------------------------------------*/
-.say-container {
-  max-width: 1280px;
-  text-align: center;
-  background-image:linear-gradient(rgba(255, 229, 80, 1)) url(../img/say.jpg.jpg);}
+.say{
+  padding-top: 100px;
+  padding-bottom: 100px;}
+.say-container.container{
+  padding-top: 100px;
+}
+.say-container{
+  width: 1280px;
+  height: 647px;
+  padding-top: 100px;
+  background-image: url(../img/say.jpg.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;}
+
+.container {
+  width: 1278px;
+  margin: 0 auto;
+  padding: 0 15px;}
 
 .say-tiatel {
   font-weight: 700;
@@ -57,8 +73,20 @@ HEAD
   height: 49px;
   margin-bottom: 20px;
   margin-left: 0;
-}
 
+}
+.icon-say{
+  display: block;
+  margin-top: 14px;
+  margin-bottom: 28px;
+  margin-left: 14px;
+  width: 101px;
+  height: 16px;
+  background-color:#FFFFFF;
+  background-image: url(../img/stars.png);
+
+
+}
 .say-description {
   font-weight: 400;
   font-size: 16px;
@@ -79,8 +107,7 @@ HEAD
   box-sizing: border-box;
   margin-bottom: 120px;
   background: #fefefe;
-  border-radius: 0px 30px 30px 30px;
-}
+  border-radius: 0px 30px 30px 30px;}
 .img {
   display: flex;
   align-items: center;
@@ -195,10 +222,10 @@ img {
   display: block;
 }
 
-.container {
-  width: 1278px;
-  margin: 0 auto;
-  padding: 0 15px;}
+
+
+
+
 
 .current{
   color: #151612;}
