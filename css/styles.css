@@ -651,6 +651,7 @@ img {
   width: 106px;
   height: 40px;
   border: 2px solid var(--icons);
+  margin-bottom: 100px;
 }
 
 .button-spec-off:hover {
