@@ -3,6 +3,8 @@
   --akcent-text-color: #bbf330;
   --bacground-color-btn: #bbf330;
   --bacground-color-btn-hover: #ffe450;
+  --belii: #ffffff;
+  --icons: #7eb101;
 }
 
 body {
@@ -47,7 +49,9 @@ HEAD
 .say-container {
   max-width: 1280px;
   text-align: center;
-  background-image:linear-gradient(rgba(255, 229, 80, 1)) url(../img/say.jpg.jpg);}
+  background-image: linear-gradient(rgba(255, 229, 80, 1))
+    url(../img/say.jpg.jpg);
+}
 
 .say-tiatel {
   font-weight: 700;
@@ -102,7 +106,7 @@ HEAD
   box-sizing: border-box;
   width: 48px;
   height: 48px;
- 
+
   margin-right: 16px;
   margin-bottom: 18px;
   margin-left: 14px;
@@ -141,7 +145,8 @@ HEAD
 .subscribe-description-meil {
   font-size: 12px;
   line-height: 1.5;
-  color: #505050;}
+  color: #505050;
+}
 
 .subscribe-meil-btn {
   position: relative;
@@ -165,31 +170,30 @@ HEAD
 }
 
 .btn {
- 
   display: block;
   width: 103px;
   height: 42px;
   border: solid rgba(187, 243, 48, 1);
   border-radius: 30px;
   background-color: var(--bacground-color-btn);
-  margin-bottom: 100px;
 }
 
 .btn .subject-description {
   margin-top: 44px;
 }
-subscribe-description-m{
-font-weight: 400;
-font-size: 16px;
-line-height: 1.5;
-color: #2C2C2C;}
+subscribe-description-m {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #2c2c2c;
+}
 
-
-.subscribe-heading{
-font-weight: 700;
-font-size: 42px;
-line-height: 1.2;
-color: #2C2C2C;}
+.subscribe-heading {
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 1.2;
+  color: #2c2c2c;
+}
 
 img {
   display: block;
@@ -198,26 +202,26 @@ img {
 .container {
   width: 1278px;
   margin: 0 auto;
-  padding: 0 15px;}
+  padding: 0 15px;
+}
 
-.current{
-  color: #151612;}
+.current {
+  color: #151612;
+}
 
- .current::after{
+.current::after {
   content: "";
   margin-left: 16px;
   width: 52px;
-  border: 1px solid #7EB101;
-  transform: rotate(90deg);}
+  border: 1px solid #7eb101;
+  transform: rotate(90deg);
+}
 
 /*.subscribe-img{
   position: absolute;
   padding-top: -500px;
   margin-top: 25px;
-
 }*/
-
-
 
 .header {
 }
@@ -381,6 +385,8 @@ img {
 .hero-box {
   display: flex;
   align-items: center;
+  position: relative;
+  background-color: var(--belii);
 }
 
 .second-hero-box {
@@ -392,6 +398,7 @@ img {
   font-size: 48px;
   line-height: 1.2;
   margin-bottom: 28px;
+  margin-top: 159px;
 }
 
 .hero-text {
@@ -400,12 +407,17 @@ img {
   margin-bottom: 40px;
 }
 
+.ring-tarelka {
+  position: absolute;
+  top: 14px;
+  right: 30px;
+}
+
 .hero-img {
-  display: block;
-  margin-top: 40px;
-  margin-left: auto;
-  margin-right: 56px;
   border-radius: 50%;
+  position: absolute;
+  top: 44px;
+  right: 56px;
 }
 
 .btn {
@@ -499,18 +511,25 @@ img {
   background-image: url(../img/wave1.jpg);
 }
 
+.column-spec-off {
+  display: flex;
+  justify-content: center;
+}
 /* LEFT PART */
+
+.colum-left-part-apple {
+  position: relative;
+  width: 655px;
+}
 
 .cirkle-ramka-apple-spec-off {
   width: 550px;
   height: 550px;
   border-radius: 50%;
   border: solid rgba(255, 255, 255, 0.5) 5px;
-  margin-left: 15px;
-  margin-right: 90px;
-
-  margin-top: -55px;
-  position: relative;
+  left: 0;
+  bottom: 43px;
+  position: absolute;
 }
 
 .white-rund-apple {
@@ -518,8 +537,9 @@ img {
   height: 502px;
   border-radius: 50%;
   background-color: var(--belii);
-  margin-top: 135px;
-  margin-left: 50px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   position: absolute;
 }
 
@@ -528,9 +548,10 @@ img {
   margin-bottom: 0;
   overflow: hidden;
   border-radius: 262px;
+  bottom: 78px;
+  left: 0;
+
   position: absolute;
-  top: -1px;
-  right: 50px;
 }
 
 /* RIGHT PART */
@@ -564,16 +585,11 @@ img {
   display: flex;
 }
 
-.column-spec-off {
-  display: flex;
-  justify-content: center;
-}
-
 .icons-fon-spec-off {
   width: 48px;
   height: 48px;
   border-radius: 50%;
-  background-color: var(--belii2);
+  background-color: var(--belii);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -613,8 +629,8 @@ img {
 .icons-offer-menu {
   fill: var(--icons);
   cursor: pointer;
-  height: 27px;
-  width: 27px;
+  height: 32px;
+  width: 32px;
 }
 
 .icons-offer-menu-two {
@@ -638,6 +654,7 @@ img {
 }
 
 .button-spec-off:hover {
-  background-color: var(--icons);
+  background-color: var(--bacground-color-btn);
+  border: 2px solid var(--bacground-color-btn);
 }
 /* offering */
